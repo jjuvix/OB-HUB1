@@ -58,17 +58,6 @@ b:Button("Jump Height", function()
 end);
 end)
 
-b:Slider("Walkspeed",{
-    
-    16,
-    100,
-    precise = true,
-    },function(value) --MinValue,MaxValue,Precise
-    while wait() do
-       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed.Value = value 
-    end
-end)
-
 b:Button("No Kill Bricks", function()
     print("no kill bricks") 
 end)
